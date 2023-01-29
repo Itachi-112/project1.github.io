@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clothes Store</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#new-arrivals">New Arrivals</a></li>
+          <li><a href="#sale">Sale</a></li>
+        </ul>
+        <form action="#" method="post">
+  <input type="text" placeholder="Search">
+  <button type="submit">Go</button>
+</form>
+        <a href="#cart">Cart</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="featured">
+        <h2>Featured Products</h2>
+        <ul>
+          <li>
+            <h3>Varsity Jacket</h3>
+            <img src="https://images.sellbrite.com/production/8650/CR-i-JWM-Jkt-23244-Marines-XL/f2c67d6b-6c48-5004-8253-9746435f7794.jpg" alt="Product 1" height="150px" width="150px">
+            <p>Color-Pink and Black,Fabric-Fleece,Pattern-Mixed</p>
+            <p>Price: $100</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <h3>Puffer Jacket</h3>
+            <img src="https://cdnc.lystit.com/photos/macys/2877871-Black-3ed465a1-.jpeg" alt="Product 2" height="150px" width="150px">
+            <p>Color-Black,Fabric-Polyester,Pattern-Solid</p>
+            <p>Price: $200</p>
+            <button>Add to Cart</button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="new-arrivals">
+        <h2>New Arrivals</h2>
+        <ul>
+          <li>
+            <h3>Mens Overcoat</h3>
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/coat/q/k/n/xl-eslc0001as-essentiele-original-imagkpm4jtxmr4fr.jpeg?q=70" alt="Product 3" height="150px" width="150px">
+            <p>Color-Blue,Fabric-Woolen,Pattern-Solid</p>
+            <p>Price: $150</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <h3>Leather Jacket</h3>
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/jacket/g/g/z/m-1-no-maw21jkt064d-metronaut-original-imagheztssybwh5k.jpeg?q=70" alt="Product 4" height="150px" width="150px">
+            <p>Color-Brown,Fabric-Leather,Pattern-Solid</p>
+            <p>Price: $175</p>
+            <button>Add to Cart</button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="sale">
+        <h2>Sale</h2>
+        <ul>
+          <li>
+            <h3>Oversized Tee</h3>
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/9/6/s/xxl-t-26-2nd-bukkl-original-imagk9yt72azsx26.jpeg?q=70" alt="Product 5" height="150px" width="150px">
+            <p>Color-white&black,Fabric-Cotton,Pattern-Typographyy</p>
+            <p>Price: $90</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <h3>Cargo Trousers</h3>
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/cargo/r/o/t/30-bplaindori-blackl1-plus91-original-imaghyx5gvch7v5j.jpeg?q=70" alt="Product 6" height="150px" width="150px">
+            <p>Color-Black,Fabric-Cotton,Pattern-Solid</p>
+            <p>Price: $110</p>
+            <button>Add to Cart</button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="cart">
+        <h2>Shopping Cart</h2>
+        <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Product 1</td>
+                <td>$100</td>
+                <td>
+                  <input type="number" value="1">
+                </td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>Product 2</td>
+                <td>$200</td>
+                <td>
+                  <input type="number" value="1">
+                </td>
+                <td>$200</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">Total</td>
+                <td>$300</td>
+              </tr>
+            </tfoot>
+          </table>
+          <button>Checkout</button>
+        </section>
+  
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+  
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+  
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+  
+            <button type="submit">Send</button>
+          </form>
+        </section>
+  
+        <section id="faq">
+          <h2>FAQ</h2>
+          <dl>
+            <dt>How do I place an order?</dt>
+            <dd>To place an order, add the items you want to purchase to your cart, then click the checkout button to complete your order.</dd>
+  
+            <dt>How much does shipping cost?</dt>
+            <dd>Shipping cost will depend on the weight of your order and the shipping destination.</dd>
+  
+            <dt>What is your return policy?</dt>
+            <dd>We accept returns within 30 days of purchase, as long as the items are in their original condition.</dd>
+          </dl>
+        </section>
+      </main>
+  
+      <footer>
+        <p>Copyright &copy; 2023 Clothes Store</p>
+      </footer>
+    </body>
+  </html>
